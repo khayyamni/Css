@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::selection{
+    background-color: rgba(128, 0, 128, 0.629);
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.first{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    padding: 15rem 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.first h1{
+    color: #212529;
+    font-size: 88px;
+}
+
+.first h3{
+    color: #212529;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.first a:hover{
+    background-color: #1d819fce;
+    letter-spacing: 5px;
+}
+
+.first a{
+    transition: 0.2s;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+
+.second{
+    text-align: center;
+    padding: 8rem;
+    background-color: aliceblue;
+}
+
+
+.second h2{
+    color: #212529;
+    margin: 0px 0px 24px;
+    font-size: 32px;
+}
+
+.second p{
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 60px;
+    opacity: 0.8;
+}
+
+.second p a{
+    transition: 0.5s;
+    color: #1d809f;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.second p a:hover{
+    color: red;
+}
+
+
+.second>a:hover{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #1d809f;
+    background-color: rgb(40, 37, 37);
+}
+
+
+.second>a{
+    transition: 0.5s;
+    background-color: black;
+    padding: 20px 40px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+.third:hover{
+    filter:blur(0px)
+}
+
+
+
+.third{
+    filter: blur(5px);
+    margin: 0px 0px 24px;
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    padding: 21rem 30rem;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.third span{
+    font-style: italic;
+
+}
+.third h2{
+    color: #212529;
+    font-size: 70px;
+    margin: 0px 25px 48px ;
+}
+
+
+.third a:hover{
+    border-top-left-radius: 50px;
+    color: #1d819fc4;
+    background-color: #e7eef0c4;
+}
+
+
+.third a{
+    transition: 0.5s;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(29,128,159,1), red);
+}
+    
+
+.fourth{
+    text-align: center;
+    color: #fff;
+    padding: 60px 0px;
+    margin-top: 5 rem;
+}
+
+
+.fourth h2 {
+    color: #F8F9FA;
+    margin: 0px 25px 60px;
+    font-size: 30px;
+
+}
+
+
+.fourth a:nth-child(2):hover{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #c9d0d6ec;
+}
+
+
+.fourth a:nth-child(2){
+    transition: 0.7s;
+    color:#000000;
+    font-size: 16px;
+    background: #F8F9FA;
+    margin: 0px 24px 0px 0px;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}   
+
+
+.fourth :last-child:hover{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #212529;
+}
+
+.fourth :last-child{
+    transition: 0.7s;
+    color: #fff;
+    font-size: 16px;
+    background: #000000;
+    margin: 0px 24px 0px 0px;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
